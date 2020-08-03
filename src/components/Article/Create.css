@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+}
+
+/* Override default */
+.Draftail-Toolbar {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Override default */
+.Draftail-Editor {
+  border: none !important;
+  width: 90% !important;
+  margin-top: 0px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Override default */
+.public-DraftEditor-content {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+/* Override default */
+.public-DraftEditorPlaceholder-inner {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (Phone) */
+  .Draftail-Editor {
+    border: none !important;
+    width: 90% !important;
+    margin-top: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.utility-button {
+  margin: 2% 2%;
+}

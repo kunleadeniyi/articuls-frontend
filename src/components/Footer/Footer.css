@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2A2A84;
+    font-family: inherit;
+    text-align: left;
+    position: relative;
+    flex: 1;
+    justify-self: flex-end;
+    bottom: 0px;
+    height: 150px !important;
+    width: 100% !important;
+}
+
+.footer-text {
+    color: #fff;
+    float: left;
+}

@@ -1,0 +1,67 @@
+.title {
+    font-family: Cormorant Garamond;
+    font-size: 350%;
+    font-weight: 400;
+    float: left;
+}
+
+.express-content {
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+
+.express-image {
+    height:480px;
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (Phone) */
+    .express-image {
+        max-width:140%;
+        height: 300px;
+    }
+    .title {
+        font-family: Cormorant Garamond;
+        font-size: 250%;
+        font-weight: 400;
+    }
+    .middle {
+        padding-top: 8%;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .express-content {
+        font-size: 100%;
+    }
+    
+}
+
+
+.write {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#carousel-image {
+    height: 300px;
+}
+
+#carousel-text {
+    font-size: 4rem;
+    color: #2A2A84;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media only screen and (min-device-width: 480px) {
+    .middle {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    #carousel-image {
+        height: auto;
+    }
+}
